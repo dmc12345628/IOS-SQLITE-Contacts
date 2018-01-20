@@ -16,6 +16,10 @@
 		4238FE3C2012635B003E7E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4238FE3A2012635B003E7E98 /* LaunchScreen.storyboard */; };
 		4238FE472012635B003E7E98 /* ContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4238FE462012635B003E7E98 /* ContactsTests.m */; };
 		4238FE522012635B003E7E98 /* ContactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4238FE512012635B003E7E98 /* ContactsUITests.m */; };
+		426A6C9F2012BFA000DA3923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426A6C9E2012BFA000DA3923 /* UIKit.framework */; };
+		426A6CA12012BFAB00DA3923 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426A6CA02012BFAB00DA3923 /* CoreGraphics.framework */; };
+		426A6CA32012BFB100DA3923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426A6CA22012BFB100DA3923 /* Foundation.framework */; };
+		426A6CA52012BFBA00DA3923 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 426A6CA42012BFBA00DA3923 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		4238FE4D2012635B003E7E98 /* ContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4238FE512012635B003E7E98 /* ContactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsUITests.m; sourceTree = "<group>"; };
 		4238FE532012635B003E7E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426A6C9E2012BFA000DA3923 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		426A6CA02012BFAB00DA3923 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		426A6CA22012BFB100DA3923 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		426A6CA42012BFBA00DA3923 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426A6CA52012BFBA00DA3923 /* libsqlite3.tbd in Frameworks */,
+				426A6CA32012BFB100DA3923 /* Foundation.framework in Frameworks */,
+				426A6CA12012BFAB00DA3923 /* CoreGraphics.framework in Frameworks */,
+				426A6C9F2012BFA000DA3923 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +99,7 @@
 				4238FE452012635B003E7E98 /* ContactsTests */,
 				4238FE502012635B003E7E98 /* ContactsUITests */,
 				4238FE272012635A003E7E98 /* Products */,
+				426A6C9D2012BFA000DA3923 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +154,17 @@
 				4238FE532012635B003E7E98 /* Info.plist */,
 			);
 			path = ContactsUITests;
+			sourceTree = "<group>";
+		};
+		426A6C9D2012BFA000DA3923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				426A6CA42012BFBA00DA3923 /* libsqlite3.tbd */,
+				426A6CA22012BFB100DA3923 /* Foundation.framework */,
+				426A6CA02012BFAB00DA3923 /* CoreGraphics.framework */,
+				426A6C9E2012BFA000DA3923 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +537,7 @@
 				4238FE582012635B003E7E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4238FE592012635B003E7E98 /* Build configuration list for PBXNativeTarget "ContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +546,7 @@
 				4238FE5B2012635B003E7E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4238FE5C2012635B003E7E98 /* Build configuration list for PBXNativeTarget "ContactsUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +555,7 @@
 				4238FE5E2012635B003E7E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
